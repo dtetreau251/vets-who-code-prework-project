@@ -9,3 +9,13 @@ const pictureItems = document.querySelectorAll('.picture-item-wrapper')
                 pictureItem.childNodes[1].classList.remove('img-lighten');
         });
     });
+
+    const darkMode = document.querySelectorAll('#dark-mode');
+
+    const background = document.querySelectorAll('.topnav');
+
+
+
+   darkMode.onclick = function(event) {
+        darkMode.style = 'background-color: white; color: black';
+}
