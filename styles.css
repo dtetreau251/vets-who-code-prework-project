@@ -226,7 +226,7 @@ ul {
         opacity: 1;
     }
 
-    .picture-item-wrapper:pointer-over .overlay {
+    .picture-item-wrapper:hover .overlay {
         opacity: 1;
     }
 
@@ -250,26 +250,28 @@ ul {
     }
 
     .topnav a {
-        float: left;
+        display: block;
+        float: none;
         width: 100%;
-        width: 33.33%;
         text-align: center;
         /* If you want the text to be left-aligned on small screens */
     }
 
     .me {
-        float: none;
-        padding: 0px 20px 20px 0px;
+        margin: 10%;
         height: auto;
-        width: 60%;
-        float: left;
+        width: 80%;
     }
 
     .deputy {
         height: auto;
+        padding: 20px;
         width: 40%;
         float: right;
-        padding: 20px;
+    }
+
+    p {
+        padding: 0px 10px 0 10px;
     }
 
     .overlay {
@@ -280,6 +282,7 @@ ul {
         right: 0;
         height: 100%;
         width: 100%;
+        opacity: 0;
         transition: .9s linear;
         background-color: #C6AD8F;
     }
@@ -289,9 +292,9 @@ ul {
     }
 
     .picture-item-wrapper:hover .overlay {
-        opacity: .5;
+        opacity: 1;
     }
-    
+
     .text {
         color: black;
         font-size: 25px;
@@ -303,7 +306,6 @@ ul {
         transform: translate(-50%, -50%);
         text-align: center;
     }
-
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
