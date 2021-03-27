@@ -73,7 +73,7 @@ ul {
     float: left;
     color: white;
     text-decoration: none; 
-    font-size: 30px;
+    font-size: 25px;
     width: 33.33%;
     text-align: center; 
 }
@@ -136,6 +136,26 @@ ul {
     color: #928490;
     margin-top: 300px;
 }
+.card {
+    box-shadow: 0 8px 16px 0 #928490;
+    transition: 0.3s;
+    width: 425px;
+    height: 300px;
+    background-color: white;
+    margin: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
 @media only screen and (max-width: 700px) {
     .picture-items-wrapper {
         display: grid;
@@ -149,22 +169,18 @@ ul {
         /* If you want the text to be left-aligned on small screens */
     }
     .me {
-        float: left;
+        margin: 10%;
         height: auto;
-        width: 100%;
-        padding: 0 20px 0px 0px;
+        width: 80%;
     }
     .deputy {
         height: auto;
         padding: 20px;
-        width: 50%;
+        width: 40%;
         float: right;
     }
     p {
         padding: 0px 10px 0 10px;
-    }
-    #start {
-        text-indent: 0;
     }
     .overlay {
         position: absolute;
@@ -178,15 +194,15 @@ ul {
         transition: .9s linear;
         background-color: #C6AD8F;
     }
-
     .picture-item-wrapper {
         position: relative;
     }
-
-    .picture-item-wrapper📜  .overlay {
+    .picture-item-wrapper:hover .overlay {
         opacity: 1;
     }
-
+    .picture-item-wrapper:pointer-over .overlay {
+        opacity: 1;
+    }
     .text {
         color: black;
         font-size: 25px;
@@ -204,7 +220,6 @@ ul {
         display: grid;
         grid-template-columns: 1fr;
     }
-
     .topnav a {
         float: left;
         width: 100%;
@@ -212,7 +227,6 @@ ul {
         text-align: center;
         /* If you want the text to be left-aligned on small screens */
     }
-
     .me {
         float: none;
         padding: 0px 20px 20px 0px;
@@ -238,15 +252,12 @@ ul {
         transition: .9s linear;
         background-color: #C6AD8F;
     }
-
     .picture-item-wrapper {
         position: relative;
     }
-
     .picture-item-wrapper:hover .overlay {
         opacity: 1;
     }
-
     .text {
         color: black;
         font-size: 25px;
