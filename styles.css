@@ -248,6 +248,7 @@ ul {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .topnav a {
         float: left;
         width: 100%;
@@ -255,6 +256,7 @@ ul {
         text-align: center;
         /* If you want the text to be left-aligned on small screens */
     }
+
     .me {
         float: none;
         padding: 0px 20px 20px 0px;
@@ -262,12 +264,14 @@ ul {
         width: 60%;
         float: left;
     }
+
     .deputy {
         height: auto;
         width: 40%;
         float: right;
         padding: 20px;
     }
+
     .overlay {
         position: absolute;
         top: 0;
@@ -279,12 +283,15 @@ ul {
         transition: .9s linear;
         background-color: #C6AD8F;
     }
+
     .picture-item-wrapper {
         position: relative;
     }
+
     .picture-item-wrapper:hover .overlay {
         opacity: .5;
     }
+    
     .text {
         color: black;
         font-size: 25px;
