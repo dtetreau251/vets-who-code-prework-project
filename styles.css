@@ -88,7 +88,7 @@ Layout
 }
 
 .column {
-    text-align: justify;
+    text-align: left;
     width: 330px;
     margin: 20px 5px;
 }
@@ -99,7 +99,7 @@ Layout
 
 #david {
     width: 200px;
-    padding: 10px 0 0 70px;
+    padding: 10px 0 0 72px;
 }
 
 ol, ul {
