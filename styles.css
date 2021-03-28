@@ -31,7 +31,75 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	line-height: 1;
+    margin: 0;
+    /* this font size will effect all elements (other than h1 -> h6) on the page */
+    font-size: 21px;
+	line-height: 1.2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========
+Typography 
+======== */
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {
+    padding-top: 20px;
+}
+
+/* ========
+Layout 
+======== */
+
+.intro {
+    width: 350px;
+    margin: 30px auto;
+    text-align: justify;
+}
+
+.my-skills {
+    background-color: #E4D9C3;
+    color: black;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.column {
+    text-align: justify;
+    width: 330px;
+    margin: 20px 5px;
+}
+
+#connect {
+    margin-top: 5px;
+}
+
+#david {
+    width: 200px;
+    padding: 10px 0 0 70px;
 }
 
 ol, ul {
@@ -48,27 +116,9 @@ q:before, q:after {
 	content: none;
 }
 
-body {
-    font-family: piazzolla, sans-serif;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-    line-height: 30px;
-}
-
-p {
-    text-indent: 50px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #425664;
+    background-color: #284358;
     overflow: hidden;
     width: 100%;
 }
@@ -93,7 +143,7 @@ ul {
 /* Add a color to the active/current link */
 .topnav a.active {
     background-color: #C6AD8F;
-    color: white;
+    color: black;
 }
 
 .picture-items-wrapper {
@@ -154,6 +204,12 @@ ul {
     margin-top: 300px;
 }
 
+.david {
+    width: 150px;
+    height: 200px;
+    margin: 0 10%
+}
+
 .card {
     box-shadow: 0 8px 16px 0 #928490;
     transition: 0.3s;
@@ -188,18 +244,6 @@ ul {
         /* If you want the text to be left-aligned on small screens */
     }
 
-    .me {
-        margin: 10%;
-        height: auto;
-        width: 80%;
-    }
-
-    .deputy {
-        height: auto;
-        padding: 20px;
-        width: 40%;
-        float: right;
-    }
 
     p {
         padding: 0px 10px 0 10px;
@@ -257,18 +301,6 @@ ul {
         /* If you want the text to be left-aligned on small screens */
     }
 
-    .me {
-        margin: 10%;
-        height: auto;
-        width: 80%;
-    }
-
-    .deputy {
-        height: auto;
-        padding: 20px;
-        width: 40%;
-        float: right;
-    }
 
     p {
         padding: 0px 10px 0 10px;
@@ -321,20 +353,6 @@ ul {
         /* If you want the text to be left-aligned on small screens */
     }
 
-    .me {
-        float: left;
-        padding: 0px 20px 20px 0px;
-        height: auto;
-        width: 30%;
-    }
-
-    .deputy {
-        height: auto;
-        width: 25%;
-        float: right;
-        margin: 20px 0 20px 20px;
-    }
-
     .overlay {
         position: absolute;
         top: 0;
@@ -380,20 +398,6 @@ ul {
     width: 33.33%;
     text-align: center;
     /* If you want the text to be left-aligned on small screens */
-    }
-
-    .me {
-    float: left;
-    padding: 0px 20px 20px 0px;
-    height: auto;
-    width: 33.4%;
-    }
-
-    .deputy {
-    height: auto;
-    width: 20%;
-    float: right;
-    margin: 20px 0 20px 20px;
     }
 
     .overlay {

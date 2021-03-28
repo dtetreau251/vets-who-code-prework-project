@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Prework Capstone</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <title>About Me</title>
         <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -13,30 +15,59 @@
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
         </div>
-        <div class="content-wrapper">
-            <div class="two-column-wrapper">
-                <div class="profile-image-wrapper">
-                    <div class="profile-content-wrapper">
-                        <img class="me" src="images\army2.jpg" alt="David Tetreau in Army uniform with fellow soliders">
-                    </div>
-                    <div class="profile-content-wrapper">
-                        <p id="start">Hi! My name is David Tetreau. That's me on the left in the picture above. I would like to introduce myself and share a little about myself. I am 38 years old, and I have two children. As you can see from the front page of this website, there are several activites I love to do. I would like to tell you about them.</p>
-                        <p id="coffee">One of those activities I participate in on a daily basis is drinking coffee! I can't image a time in my life where I will not partake in caffeinated beverages. I made it all the way through the military without being an avid coffee drinker, but working nights in law enforcement changed that! My favorite coffee drink is a large "blackeye". This drink consists of regular coffee with two shots of espresso added. It's definetely for more experienced coffee drinkers!</p>
-                        <p id="guitar">Another activity I love to do is play guitar. Although I do not play guitar daily, it is somthing that I have done since I was young that has been a part of my life for a very long time. It's amazing how a skill someone learns several decades prior, is still usable after so much time has passed. I never took guitar lessons, but I figured out quite a few songs on my own. Also, I love traveling to the mountains. I have been to the Rocky Mountains one time. Flying over them was definetely inspiring. I frequently visit the Smoky Mountains. I enjoy the outdoor recreation the Smoky Mountains provides. However, I still have not been whitewater rafting. This is on my "to-do" list. 
-                        </p>
-                        <img class="deputy" src="images\me.jpg" alt="David Tetreau in Deputy uniform">
-                        <p id="army">You may have also noticed that I have been in the military and in law enforcement.  My career began in the Alabama National Guard in 2000 when I was 17.  I was a Military Policeman and continued in that role by joining the United States Army in 2002. I served in several combat areas including Djibouti, Kuwait, Iraq, and Afghanistan. My company, the 551st Military Police Company, was part of the 101st Airborne Division (Air Assault). As you can see in the picture above, we frequently utilized helicopters to carry out missions during our deployments.</p>
-                        <p id="leo"> When I left the Army, I started a career in law enforcement. I have been a Deputy Sheriff for 15 years and have had many rewarding experiences. I worked patrol answering calls for serivce. Also, i was involved with serving court paperwork and carrying out court orders. Currently, I am a School Resource Officer. I teach school children lessons on topics such as drug prevention. I also provide security during the school day and help foster a safe school environment.  
-                        I love teaching! I am also a lifelong learner. That is why I have started learning web development.</p>
-                        <p>I have completed some basic lessons from several internet sources including freecodecamp, Codecademy, Khan Academy, Youtube, LinkedIn, V-School and more. I also obtained an 
-                        Undergraduate Certificate in Software Development from University of Phoenix. I also obtained my Certified Ethical Hacker certification from 
-                        EC Council. Although I have familiarized myself with various disciplines, the one that sticks out the most is web development. I have the most fun creating web apps and web pages. Also, web development is something I learn more easily than some other technical disciplines.Prior to my technical studies, my educational experiences included obtaining a B.S. in Criminal Justice from Troy University and a Master of Justice Administration from Faulkner University.   </p>
-                        <p>I am currently seeking enrollment in the VetsWhoCode program. I am positive that being around aspiring Web Developers who share similar life experiences is exactly what I need to succeed in web development. I am looking forward to being challenged and learning all I can about this exciting field. I like web development because I like the idea of being able to bring people's ideas to life. I also like being able to deliver solutions that make their jobs easier and in turn make their lives eaiser. As you can see from my description above, I have a great deal of experience with formal education. However, I am very interested in learning a skill.  I have come to learn that being skilled can be much more impressive. I think it will be a great feeling to know that I can do something that many other people cannot.   
-                        </p>
-                    </div>
-                </div>
+        <main>
+            <div class="intro">
+                <h3>Hi! My name is David Tetreau.</h3>
+                <img src="images/david.jfif" id="david">
+                <p>I would like to introduce myself and share some of my skills and some of the 
+                    training experiences I have had.</p>
             </div>
-        </div> 
-    <script src="app.js"></script>  
-    </body> 
+
+            <div class="my-skills"> <!-- this has the background -->
+                <div class="columns"> <!-- width, centered, and flex to make columns -->
+                    
+                    <!-- column 1 -->
+                    <div class="column">
+                        <h3>Formal Education</h3>
+                        <p>My formal education includes a Master's of Justice Administration from Faulkner Univerity,
+                             a B.S. in Criminal Justice from Troy University with a Minor in Business Admin.
+                            , and an Undergraduate Certificate in Advanced Software Development from University of Phoenix.</p>
+                    </div>
+                    
+                    <!-- column 3 -->
+                    <div class="column">
+                        <h3>Bootcamps</h3>
+                        <p>Work completed for bootcamp programs includes V-School module 1 and module 2, and #VetsWhoCode. Also, I have completed several courses & certifications at freeCodeCamp, App Academy's open curriculum, and The Odin Project.
+                        </p>
+                    </div>
+                    
+                    <!-- column 3 -->
+                    <div class="column">
+                        <h3>Courses</h3>
+                        <p>I have taken quite a few courses in my pursuit of learning web development.
+                             Some of these include Codecademy, LinkedIn Learning, Scrimba's HTML & CSS 
+                             Crash Course, and Introduction to Javascript Course, and others!</p>
+                    </div>  
+
+                    <!-- column 4 -->
+                     <div class="column">
+                        <h3>Connect With Me:</h3>
+                        <p id="connect">I am a member of these communities. Please feel free to reach out and to review some of the work I have done!<br><br>
+                        <a href="https://codepen.io/dtetreau251" target="blank_" noopener noreferrer><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="dtetreau251" height="30" width="40" /></a>
+                        <a href="https://dev.to/dtetreau251" target="blank_" noopener noreferrer><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="dtetreau251" height="30" width="40" /></a>
+                        <a href="https://twitter.com/david_tetreau" target="blank_" noopener noreferrer><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="david_tetreau" height="30" width="40" /></a>
+                        <a href="https://linkedin.com/in/https://www.linkedin.com/in/tetreau/" target="blank_" noopener noreferrer><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="https://www.linkedin.com/in/tetreau/" height="30" width="40" /></a>
+                        <a href="https://stackoverflow.com/users/dt36535" target="blank_" noopener noreferrer><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="dt36535" height="30" width="40" /></a>
+                        </p>
+                    </div> 
+                        
+                </div> <!-- / columns -->
+            </div> <!-- / my-skills -->   
+        </main>
+    </body>
 </html>
+
+
+<!--
+    Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. 
+-->
