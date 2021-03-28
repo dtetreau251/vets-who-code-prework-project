@@ -227,7 +227,7 @@ q:before, q:after {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-top: 50px;
+    margin: 20px auto;
 }
 
 @media only screen and (max-width: 700px) {
