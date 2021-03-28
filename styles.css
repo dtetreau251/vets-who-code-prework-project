@@ -176,7 +176,7 @@ q:before, q:after {
 
 .logo-wrapper img {
     width: 50px;
-    margin: 50%;
+    margin: 0 auto 25px 0;
 }
 
 .img-text-wrapper .subtitle {
