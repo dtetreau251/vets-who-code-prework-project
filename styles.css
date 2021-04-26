@@ -140,7 +140,7 @@ q:before, q:after {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #F6F4F2;
+    background-color: white;
     color: black;
 }
 
@@ -262,7 +262,7 @@ q:before, q:after {
         width: 100%;
         opacity: 0;
         transition: .9s linear;
-        background-image: linear-gradient(white, BurlyWood);
+        background-image: linear-gradient(white, #F6F4F2);
     }
 
     .picture-item-wrapper {
@@ -319,7 +319,7 @@ q:before, q:after {
         width: 100%;
         opacity: 0;
         transition: .9s linear;
-        background-color: #C6AD8F;
+        background-color: #F6F4F2;
     }
 
     .picture-item-wrapper {
@@ -366,7 +366,7 @@ q:before, q:after {
         width: 100%;
         opacity: 0;
         transition: .9s linear;
-        background-color: #C6AD8F;
+        background-color: #F6F4F2;
     }
 
     .picture-item-wrapper {
@@ -413,7 +413,7 @@ q:before, q:after {
         width: 100%;
         opacity: 0;
         transition: .9s linear;
-        background-color: #C6AD8F;
+        background-color: #284358;
     }
 
     .picture-item-wrapper {
@@ -425,7 +425,7 @@ q:before, q:after {
     }
 
     .text {
-        color: black;
+        color: white;
         font-size: 25px;
         position: absolute;
         top: 50%;
